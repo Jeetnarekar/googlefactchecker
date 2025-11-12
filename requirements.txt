@@ -1,36 +1,36 @@
 # Core
-streamlit==1.39.0
-pandas==2.2.2
-numpy==1.26.4
+streamlit
+pandas
+numpy
 
 # Machine Learning
-scikit-learn==1.5.2
-imbalanced-learn==0.12.3
-joblib==1.4.2
+scikit-learn
+imbalanced-learn
+joblib
 
 # NLP
-spacy==3.7.4
-en-core-web-sm==3.7.1
+spacy
+en-core-web-sm
 
 # Database
-sqlite-utils==3.36
+sqlite-utils
 
 # Web scraping
-requests==2.32.3
-beautifulsoup4==4.12.3
-lxml==5.2.2
+requests
+beautifulsoup4
+lxml
 
 # Visualization
-plotly==5.24.0
+plotly
 
 # Data handling
-openpyxl==3.1.5
+openpyxl
 
 # Utilities
-urllib3==2.2.3
-tqdm==4.66.5
-blis==0.7.11
-thinc==8.3.2
-preshed==3.0.9
-murmurhash==1.0.10
-catalogue==2.0.10
+urllib3
+tqdm
+blis
+thinc
+preshed
+murmurhash
+catalogue
