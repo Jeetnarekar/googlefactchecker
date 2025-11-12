@@ -38,8 +38,19 @@ except Exception:
     st.warning("⚠️ Using key from code (not safe for deployment).")
 
 
-# Load spaCy
-nlp = spacy.load("en_core_web_sm")
+import spacy
+from spacy.cli import download
+
+def load_spacy_model():
+    try:
+        nlp = spacy.load("en_core_web_sm")
+    except OSError:
+        download("en_core_web_sm")
+        nlp = spacy.load("en_core_web_sm")
+    return nlp
+
+nlp = load_spacy_model()
+
 
 # Load models and vectorizer (assumes files exist)
 vectorizer = joblib.load("tfidf_vectorizer.joblib")
@@ -717,4 +728,5 @@ elif main_menu == "Google Fact Checker":
 # ---------------------- END ----------------------
 st.markdown("---")
 st.write("PolitiFact FactCheck Hub — Basic scraping, feature extraction, benchmarking, and Google Drive checking. Modify selectors or heuristics as needed. 🚀")
+
 
