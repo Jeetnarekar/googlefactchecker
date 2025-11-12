@@ -8,11 +8,6 @@ scikit-learn==1.5.2
 imbalanced-learn==0.12.3
 joblib==1.4.2
 
-# NLP
-spacy>=3.5.0
-en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85
-# Database
-sqlite-utils==3.36
 
 # Web scraping
 requests==2.32.3
@@ -37,3 +32,8 @@ tqdm==4.66.5
 #preshed==3.0.9
 #murmurhash==1.0.10
 #catalogue==2.0.10
+# NLP
+spacy>=3.5.0
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85
+# Database
+sqlite-utils==3.36
