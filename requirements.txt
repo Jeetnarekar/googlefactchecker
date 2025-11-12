@@ -10,23 +10,15 @@ joblib
 
 # NLP
 spacy
-en-core-web-sm
-
-# Database
-sqlite-utils
 
 # Web scraping
 requests
 beautifulsoup4
 lxml
 
-# Visualization
+# Optional/Utilities
 plotly
-
-# Data handling
 openpyxl
-
-# Utilities
 urllib3
 tqdm
 blis
