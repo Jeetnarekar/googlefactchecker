@@ -1,40 +1,33 @@
-# --- Core environment setup ---
-pip>=24.0
-setuptools>=70.0.0
-wheel
-
-# --- Core libraries ---
+# Core
 streamlit==1.39.0
 pandas==2.2.2
 numpy==1.26.4
 
-# --- Machine Learning ---
+# Machine Learning
 scikit-learn==1.5.2
 imbalanced-learn==0.12.3
 joblib==1.4.2
 
-# --- NLP ---
+# NLP
 spacy==3.7.4
-# The spaCy model (en_core_web_sm) will be downloaded at runtime to prevent build errors
+en-core-web-sm==3.7.1
 
-# --- Database ---
+# Database
 sqlite-utils==3.36
 
-# --- Web Scraping ---
+# Web scraping
 requests==2.32.3
 beautifulsoup4==4.12.3
 lxml==5.2.2
 
-# --- Visualization ---
+# Visualization
 plotly==5.24.0
 
-# --- Benchmarking / Data handling ---
+# Data handling
 openpyxl==3.1.5
 
-# --- Fact-checking / API handling ---
+# Utilities
 urllib3==2.2.3
-
-# --- Utility / optional improvements ---
 tqdm==4.66.5
 blis==0.7.11
 thinc==8.3.2
