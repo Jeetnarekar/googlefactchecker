@@ -1,0 +1,40 @@
+# Core
+streamlit==1.39.0
+pandas==2.2.2
+numpy==1.26.4
+
+# Machine Learning
+scikit-learn==1.5.2
+imbalanced-learn==0.12.3
+joblib==1.4.2
+
+# NLP
+spacy==3.7.4
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
+
+# Database
+sqlite-utils==3.36
+
+# Web scraping
+requests==2.32.3
+beautifulsoup4==4.12.3
+lxml==5.2.2
+
+# Visualization
+plotly==5.24.0
+
+# Benchmarking / Data handling
+openpyxl==3.1.5
+
+# Fact-checking / API handling
+urllib3==2.2.3
+
+# Optional: for displaying tables and progress nicely
+tqdm==4.66.5
+
+# Optional: to avoid spacy loading issues on Streamlit Cloud
+blis==0.7.11
+thinc==8.3.2
+preshed==3.0.9
+murmurhash==1.0.10
+catalogue==2.0.10
